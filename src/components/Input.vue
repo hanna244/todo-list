@@ -1,8 +1,11 @@
-<script setup lang="ts"></script>
-
 <template>
-  <div class="input_wrapper">Input</div>
+  <div class="input_wrapper">
+    <label for="todoInput"></label>
+    <input type="text" id="todoInput" />
+  </div>
 </template>
+
+<script></script>
 
 <style scoped>
 .input_wrapper {
